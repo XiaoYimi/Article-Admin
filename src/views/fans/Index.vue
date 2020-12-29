@@ -1,21 +1,19 @@
 <template>
-  <div class="Home">
-    Home
+  <div class="FansIndex">
+    FansIndex
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Home',
+  name: 'FansIndex',
   data () {
     return {
-      a: 1
     }
   },
   methods: {
   },
   created () {
-
   }
 }
 </script>

@@ -6,11 +6,11 @@ import store from './store'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-chalk/index.css'
 
-import http from './plugins/http'
+import API from '@/plugins/API'
 
 import '@/assets/css/reset.css'
 Vue.use(ElementUI)
-Vue.use(http)
+Vue.use(API) // this.api.apiname
 Vue.config.productionTip = false
 
 new Vue({
